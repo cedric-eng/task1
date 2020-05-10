@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>inquiry form</title>
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/style.css"
-</head>
+  <link rel="stylesheet" href="./css/style.css">
+ </head>
+
 <body>
 
   <div class="container">
@@ -22,7 +24,7 @@
         </ul>
       </nav>
     </header>
-    <img src="./images/business.png">
+    <img src="./images/contact.png">
     <div class="wrapper clearfix">
       <aside class="side_menu">
         <nav>
@@ -32,53 +34,51 @@
             <li><a href="Contact">Contact Us</a></li>
           </ul>
         </nav>
-          </a>
+        </a>
       </aside>
 
       <article class="container">
         <div id="contact section">
-        <h2>Contact Us<h2>
 
-  <form class="table" action="index.html" form="post">
           <form>
             <table>
-             <tr>
-                 <td>
-                     Name :
+              <tr>
+                <td>
+                  Name : 
                 </td>
                 <td>
-                <input type="text" placeholder="Your name" required>
-               </td>
+                  <input type="text" placeholder="Your name" required class="inputName">
+                </td>
               <tr>
                 <td>
                   email address :
                 </td>
                 <td>
-                   <input type="Email address" placeholder="Email address" name="">
+                  <input type="Email address" placeholder="Email address" required class="inputName">
                 </td>
               </tr>
-               <td>
-                  Gender
+              <td>
+                Gender
+              </td>
+              <td>
+                <input type="radio" name="Gender" class="genderRadio">Male
+                <input type="radio" name="Gender" class="genderRadio" >Female
+              </td>
+              <tr>
+                <td>
+                  Details of inquiry
                 </td>
-              <td>
-                <input type="radio" name="Gender">Male
-                <input type="radio" name="Gender">Female
-              </td>
-             <tr>
-               <td>
-                 Details of inquiry
-               </td>
-              <td>
-                <input type="text" placeholder="Details of inquiry" required>
-              </td>
-            </tr>
-                <tr>
-                  <td>
-                    <input type="submit" value="send" name="">
-            </td>
-          </tr>
-          </table>
-        </form>
+                <td>
+                  <input type="text" placeholder="Details of inquiry" required>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="submit" value="send" name="">
+                </td>
+              </tr>
+            </table>
+          </form>
 
 
       </article>
@@ -88,4 +88,5 @@
     </footer>
   </div>
 </body>
+
 </html>

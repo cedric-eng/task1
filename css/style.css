@@ -1,7 +1,3 @@
-{
-  font-size: 62.5%;
-  height: 100%;
-}
 body {
   height: 100%;
   width: 980px;
@@ -111,13 +107,6 @@ ul.top_menu {
   background-color: #FCECEC;
 }
 
-.placeholder{
-  position: left;
-  display: table;
-  width: auto;
-  height: auto;
-}
-
 .side_menu .point a{
   color: #4D4D4D;
 }
@@ -150,4 +139,21 @@ ul.top_menu {
   content: "";
   display: block;
   clear: both;
+}
+
+input.inputName {
+  width: 480px;
+  position: left;
+  display: table;
+  height: auto;
+  text-align: left;
+}
+
+table td {
+  border: #fff;
+  margin: 150px;
+}
+
+input.genderRadio {
+  text-align: left;
 }
